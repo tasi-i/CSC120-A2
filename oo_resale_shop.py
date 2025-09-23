@@ -1,10 +1,19 @@
 class ResaleShop:
+    profit:float
+    inventory:str
+    
+    def __init__(self):
+        self.inventory=[]
+        self.profit=0.0
+        
 
-    # What attributes will it need?
 
-    # How will you set up your constructor?
-    # Remember: in python, all constructors have the same name (__init__)
-    def __init__():
-        pass # You'll remove this when you fill out your constructor
+    def buy_computer(self, computer):
+        self.inventory.append(computer)
 
-    # What methods will you need?
+    def sell_computer(self, computer):
+        if computer in self.inventory:
+            self.inventory.remove(computer)
+            self.profit+=computer.price
+        else:
+            print("Error: The computer is not found in inventory")
