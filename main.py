@@ -1,5 +1,10 @@
-# MAIN
-
+# Main script for the Resale Shop project.
+# Creates instances of Computer and ResaleShop.
+# Adds computers to the shop inventory.
+# Updates prices and operating systems as needed.
+# Refurbishes computers to adjust their prices.
+# Sells computers and updates the shop's profit.
+# Prints inventory and profit at each stage.
 from computer import Computer
 from oo_resale_shop import ResaleShop
 

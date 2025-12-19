@@ -1,3 +1,6 @@
+#ResaleShop class for the Resale Shop project.
+#Manages an inventory of computers and keeps track of profit.
+#Includes methods to buy and sell computers.
 class ResaleShop:
     profit:float
     inventory:str

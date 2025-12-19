@@ -1,3 +1,7 @@
+#Computer class for the Resale Shop project.
+#Represents a computer with attributes such as description, processor type,
+#hard drive capacity, memory, operating system, year made, and price.
+#Includes methods to update price, update operating system, and refurbish the computer.
 class Computer:
 #all characteristics of cpmputer
     def __init__(self,description, processor_type, hard_drive_capacity, memory, operating_system, year_made, price):
